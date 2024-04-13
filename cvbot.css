@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+}  
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Montserrat';
+}
+
+.main-content {
+  text-align: center;
+  width: 85%;
+}
+.main-content form {
+  margin-top: 2em;
+}
+.title {
+  font-weight: 550;
+  font-family: 'Montserrat';
+  margin-top: 0.7em;
+}
+.form-group {
+  margin-top: 1em;
+}
+.form-group:first-of-type {
+  margin-top: 0;
+}
+#addMoreWork {
+  margin-top: 0.9em;
+}
+#addMoreEdu {
+  margin-top: 0.9em;
+}
+#removeThisWork {
+  float: right; 
+  margin-right: 1em; 
+  font-size: 18px;
+}
+#removeThisEdu {
+  float: right; 
+  margin-right: 1em; 
+  font-size: 18px;
+}
+
+.periodWork {
+  margin-top: 1em;
+}
+.periodWork input {
+  margin-top: 1em; 
+}
+.periodWork input:first-of-type {
+  margin-top: 0.7em; 
+}
+.periodEdu {
+  margin-top: 1em;
+}
+.periodEdu input {
+  margin-top: 1em; 
+}
+.periodEdu input:first-of-type {
+  margin-top: 0.7em; 
+}
+.education-container {
+  margin-top: 3em;
+}
